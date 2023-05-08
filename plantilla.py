@@ -1,4 +1,7 @@
-plantillaMsg =  """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+plantillaMsg = """\
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
@@ -10,10 +13,10 @@ plantillaMsg =  """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN
     <title></title>
     <!--[if (mso 16)]>
     <style type="text/css">
-    a {text-decoration: none;}
+    
     </style>
     <![endif]-->
-    <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]-->
+    <!--[if gte mso 9]><style>sup </style><![endif]-->
     <!--[if gte mso 9]>
 <xml>
     <o:OfficeDocumentSettings>
@@ -107,7 +110,7 @@ plantillaMsg =  """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td class="esd-block-text" align="center">
-                                                                                        <h1 style="color: #666666; font-size: 40px; font-family: lora, georgia, times\ new\ roman, serif;"><em>{df['name']}</em></h1>
+                                                                                        <h1 style="color: #666666; font-size: 40px; font-family: lora, georgia, times\ new\ roman, serif;"><em>{nombre}</em></h1>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -202,7 +205,4 @@ plantillaMsg =  """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN
     </div>
 </body>
 
-</html>
-
-
-"""
+</html>"""
